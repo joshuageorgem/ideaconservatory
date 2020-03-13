@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nubia</title>
-    <description>Thoughts, Stories and Ideas</description>
-    <link>https://nubia-jekyll.netlify.com//</link>
-    <atom:link href="https://nubia-jekyll.netlify.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Mar 2020 15:24:53 +0530</pubDate>
-    <lastBuildDate>Fri, 13 Mar 2020 15:24:53 +0530</lastBuildDate>
+    <title>Idea Conservatory</title>
+    <description>Ideas, Objects, Creativity</description>
+    <link>https://ideaconservatory.org/</link>
+    <atom:link href="https://ideaconservatory.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 13 Mar 2020 17:42:12 +0530</pubDate>
+    <lastBuildDate>Fri, 13 Mar 2020 17:42:12 +0530</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
 
     
@@ -46,21 +46,103 @@
   &lt;li&gt;Improving the model (i.e. crypto-currency) seeks to radically transform society.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Let us now use this image to understand how the digital world works, from a web development perspective.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/27.jpg&quot; alt=&quot;alt&quot; /&gt;
+Let us now use this image to understand how the digital world works, from a web development perspective.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h5 id=&quot;quote&quot;&gt;Quote&lt;/h5&gt;
-
 &lt;blockquote&gt;
-  &lt;p&gt;Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. — George Santayana&lt;/p&gt;
+  &lt;p&gt;Drawings help people to work out intricate relationships between parts - Christopher Alexander&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1433785567155-bf5530cab72c?ixlib=rb-0.3.5&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;w=1080&amp;amp;fit=max&amp;amp;s=1348aea714b9493fa61a09a8c01113e6&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;model-view-controller-web-development&quot;&gt;Model-View-Controller: Web development&lt;/h3&gt;
+
+&lt;h4 id=&quot;view&quot;&gt;View&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/28.jpg&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s start with the View, as it resides on the upper most part of the information ‘Stack’.&lt;/p&gt;
+
+&lt;p&gt;The view, as its name implies refers to what is ‘rendered’ on your screen. The word rendered is used because what you see, right from the colors, fonts, animations, styles, the layout every single icon has instructions written in code. The people who do this are, ‘Front End Developers’, as the name suggests – working on what is seen and experienced – the front end. As we have architects for buildings, we have ‘User Interface Designers’ who create the interfaces.
+The tools and languages used to create views:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML – Hypertext Markup Language: Is like an information templating system to plan information layouts on the screen.&lt;/li&gt;
+  &lt;li&gt;CSS – Cascading Style Sheets: These are instruction templates that deal with the styling of the HTML&lt;/li&gt;
+  &lt;li&gt;JavaScript – Also referred to as JS, They integrate instructions and enable interactivity with the information presented using HTML/CSS. They can listen to events, that is - if a mouse has clicked a part of the page, if you have swiped left, or if you have filtered a data list for visualization. All the interactivity you have experienced in the modern web is thanks to JavaScript.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;model&quot;&gt;Model&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/29.jpg&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The model is probably the hardest to define. Can the model be a scaffold — like a view-model — on which actual data gets mounted? Now we are thinking of modelling visual representations. Can a model contain business logic? What if you had an Account model and it had associated maintenance fee, interests rate, and rules for how they are applied — could you now query the model to get insight on how much money I will have after 5 years? The Model is essentially, structured data, arranged as records - like the ones you find on a spreadsheet. The model only represents the data, it does nothing else. It does not depend on the controller or the view. The people who do this are called ‘Backend Developers’.&lt;/p&gt;
+
+&lt;p&gt;There are many tools used to create and store models, for our scope in this article I shall focus on databases, in particular – relational databases and non-relational databases.\&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Relational Databases (RDBMS – Relational Database Management System): These are similar to what you see on excel. They store data in columns and rows - tables. A collection of tables make a schema. A number of schemas create a database. Relational databases are robust, and are used when the data is structured. Some of the popular relational databases are: MySQL, PostgreSQL, SAPHANA,&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Non-Relational Databases: These are more recent, and are an innovative way of storing data. Here data isn’t stored in a tabular form. You can think of it as Data stored as documents on a bookshelf. Another way to look at it would be like your folder on the PC. You can have audiofiles, videofiles, slides and documents all in one folder irrespective of the file type. It follows similar fashion here. With more and more businesses getting into big data, non relational databases make it easy to store, retrieve and manipulate data. Some of the popular non relational databases are: MongoDB, Cassandra, Redis, Neo4j&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;controller&quot;&gt;Controller&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/30.jpg&quot; alt=&quot;alt&quot; /&gt;
+The controller is easier to explain. The controller ties the model to the view. It is the layer sandwiched between the view and the model. It contains all the logic as well as the routes to the data model in the backend. Information architects and User Experience designers play a critical role in providing inputs to those that design routes and controllers that fetch data from the backend and present them in the view.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;tying-it-all-together-from-the-physical-world&quot;&gt;Tying it all together from the physical world&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://strunkmarketing.com/bitmoto/ford/images/custom/ford-techs.jpg&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s reinforce what we have learnt so far by going back in time to consider a situation without digital technology. Imagine a store clerk at an auto parts warehouse. A customer comes in and says he wants to buy brake pads for a 1992 Honda Civic.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The clerk looks up where that part is stored in the warehouse and brings it to the customer.&lt;/li&gt;
+  &lt;li&gt;The customer inspects it and then moves to the other clerk at the cash register to purchase the part.&lt;/li&gt;
+  &lt;li&gt;The second clerk inspects the part and asks for a specific amount of money to complete the transaction.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the first scenario — looking up the part — the view was the physical part, the model was the part as a component of the warehouse inventory. In the second scenario the model was still the part as a component of the warehouse inventory, but the view was the price. In this contrived scenario we have two controllers — the clerk that finds the part based on some query parameters, and the clerk, that given a part, requests some money.&lt;/p&gt;
+
+&lt;h4 id=&quot;interpretation-into-the-digital-world&quot;&gt;Interpretation into the digital world&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/31.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bringing it back to the regular web application this process becomes easily translatable. On a landing page we look for a part. Our initial view is that of a search field that provides an interface to find something we are looking for.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;As we click “Search” this information is passed to a controller that then finds the model that matches, ties it to view and returns it back to the user. The user looks at the view of the search results — essentially one or more models — and makes a choice.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A different controller then takes the model(s) and renders a new view that now will show the price, the sales tax, shipping information etc.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In short, we have many controllers tying models to different views. Each view arises out of the customer needs identified in the physical world.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-oppurtunity-for-transformation&quot;&gt;The oppurtunity for transformation&lt;/h3&gt;
+&lt;p&gt;Let us conclude by tying some philosophical musings with the concrete ideas behind the model-view-controller.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you are a looking for gradual improvement, or improvement in performance - look at changing the Controller.&lt;/li&gt;
+  &lt;li&gt;If you are looking for innovation, look at changing or presenting a different View.&lt;/li&gt;
+  &lt;li&gt;If you are looking for Radical Transformation look at changing the Model.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most techies may look at the Model-View-Controller as a mere pattern or an architecture, but it has a more powerful purpose. It provides a fundamental way to reason about technology.&lt;/p&gt;
+
+&lt;p&gt;In the next session we are going to understand the process of building. Say you wanted to build an app. How would you go about doing it? Where and how would you start? What are the steps and resources involved and how does anthropology, design, engineering and digital innovation fit into all this. Stay tuned.&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>13 Mar 2020</pubDate>
-        <link>https://nubia-jekyll.netlify.com//2020/03/13/a-fundamental-way-to-reason-about-technology/</link>
-        <guid isPermaLink="true">https://nubia-jekyll.netlify.com//2020/03/13/a-fundamental-way-to-reason-about-technology/</guid>
+        <link>https://ideaconservatory.org/2020/03/13/a-fundamental-way-to-reason-about-technology/</link>
+        <guid isPermaLink="true">https://ideaconservatory.org/2020/03/13/a-fundamental-way-to-reason-about-technology/</guid>
       </item>
     
       <item>
@@ -1683,8 +1765,8 @@ standardising website design. The main purpose of web standards are to make it e
 &lt;p&gt;Compiled from the following &lt;a href=&quot;'https://www.slideshare.net/laurakerrigan/glossary-of-digital-terms'&quot;&gt;resource&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>20 Feb 2020</pubDate>
-        <link>https://nubia-jekyll.netlify.com//2020/02/20/digital-glossary/</link>
-        <guid isPermaLink="true">https://nubia-jekyll.netlify.com//2020/02/20/digital-glossary/</guid>
+        <link>https://ideaconservatory.org/2020/02/20/digital-glossary/</link>
+        <guid isPermaLink="true">https://ideaconservatory.org/2020/02/20/digital-glossary/</guid>
       </item>
     
 
@@ -1697,263 +1779,17 @@ standardising website design. The main purpose of web standards are to make it e
         
           <item>
             <title>About</title>
-            <description>&lt;p&gt;You love minimalism, want to be productive focusing only on the important things and want to take jekyll to the next level, Nubia is designed for you. Nubia focus on showing your content in a clean and simple way, focus on images, typography, and white space.&lt;/p&gt;
+            <description>&lt;h1 id=&quot;the-idea-conservatory&quot;&gt;The Idea Conservatory&lt;/h1&gt;
+&lt;p&gt;is a personal blog where &lt;em&gt;interdisciplinary&lt;/em&gt; ideas are collected.&lt;/p&gt;
 
-&lt;p&gt;This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;jekyllrb.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.&lt;/p&gt;
 </description>
-            <link>https://nubia-jekyll.netlify.com//about.html</link>
+            <link>https://ideaconservatory.org/about.html</link>
           </item>
         
       
     
       
     
-      
-    
-      
-        
-          <item>
-            <title>Style Guide</title>
-            <description>At [Aspire Themes](http://aspirethemes.com/) I use a lot of tools to help me create WordPress, Ghost and Jekyll themes. Tools will range from development, design, services, hosting and automation.
-
-Graphic design is the paradise of **individuality**, *eccentricity*, heresy, abnormality, hobbies, and humors. — George Santayana.
-
----
-
-# Simple default styles for headings
-
-## Simple default styles for headings
-
-### Simple default styles for headings
-
-#### Simple default styles for headings
-
-##### Simple default styles for headings
-
-###### Simple default styles for headings
-
----
-
-* Ut at interdum nunc. Maecenas commodo turpis quis elementum gravida.
-* Nunc ac sapien tellus. Quisque risus enim, tempus eget porttitor.
-* Donec nibh massa, rutrum a sollicitudin eu, lacinia in lorem.
-
----
-
-1. Ut at interdum nunc. Maecenas commodo turpis quis elementum gravida.
-2. Nunc ac sapien tellus. Quisque risus enim, tempus eget porttitor in.
-3. Donec nibh massa, rutrum a sollicitudin eu.
-
----
-
-&gt; Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. — George Santayana
-
----
-
-&lt;p&gt;You can use the mark tag to &lt;mark&gt;highlight&lt;/mark&gt; text.&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;This line of text is meant to be treated as deleted text.&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;This line of text will render as underlined&lt;/u&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;This line of text is meant to be treated as fine print.&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;This line rendered as bold text.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This line rendered as italicized text.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;abbr title=&quot;attribute&quot;&gt;attr&lt;/abbr&gt;&lt;/p&gt;
-&lt;p&gt;&lt;abbr title=&quot;HyperText Markup Language&quot; class=&quot;initialism&quot;&gt;HTML&lt;/abbr&gt;&lt;/p&gt;
-
----
-
-### Responsive Tables
-
-&lt;div class='responsive-table'&gt;
-&lt;table&gt;
-      &lt;thead&gt;
-        &lt;tr&gt;
-          &lt;th scope=&quot;col&quot;&gt;#&lt;/th&gt;
-          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
-          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
-          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
-          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
-          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
-          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
-          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
-          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
-          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
-        &lt;/tr&gt;
-      &lt;/thead&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-          &lt;td&gt;Cell&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-&lt;/div&gt;
-
----
-
-### YouTube Responsive Embed
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nuwjUZCSB2Y?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
----
-
-### Vimeo Responsive Embed
-
-&lt;iframe src=&quot;https://player.vimeo.com/video/212114694?title=0&amp;byline=0&amp;portrait=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
----
-
-### TED Responsive Embed
-
-&lt;iframe src=&quot;https://embed.ted.com/talks/ted_halstead_a_climate_solution_where_all_sides_can_win&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
----
-
-### Twitch Responsive Embed
-
-&lt;iframe src=&quot;https://player.twitch.tv/?autoplay=false&amp;video=v248755437&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;no&quot; height=&quot;378&quot; width=&quot;620&quot;&gt;&lt;/iframe&gt;
-
----
-
-### SoundCloud Embed
-
-&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/29738591&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
-
----
-
-### CodePen Embed
-
-&lt;p data-height=&quot;265&quot; data-theme-id=&quot;light&quot; data-slug-hash=&quot;YWvpRo&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;kharrop&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;Referral Form&quot; class=&quot;codepen&quot;&gt;&lt;/p&gt;
-&lt;script async src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
----
-
-### Instagram Embed
-
-  &lt;blockquote class=&quot;instagram-media&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/BhFTg6uhNRi/&quot; data-instgrm-version=&quot;8&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/BhFTg6uhNRi/&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by Ahmad Ajmi (@ahmadajme)&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2018-04-02T21:18:58+00:00&quot;&gt;Apr 2, 2018 at 2:18pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt; &lt;script async defer src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
-
----
-
-### Twitter Embed
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Very excited to release Nubia, a new Responsive &amp;amp; Multipurpose Ghost Theme 🚀🚀&lt;a href=&quot;https://t.co/LATsykOLDJ&quot;&gt;https://t.co/LATsykOLDJ&lt;/a&gt; &lt;a href=&quot;https://t.co/zG2PFVwe7G&quot;&gt;pic.twitter.com/zG2PFVwe7G&lt;/a&gt;&lt;/p&gt;&amp;mdash; Aspire Themes (@aspirethemes) &lt;a href=&quot;https://twitter.com/aspirethemes/status/944865769300660225?ref_src=twsrc%5Etfw&quot;&gt;December 24, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
----
-
-### Responsive &amp; Medium Style Image Zoom
-
-Click the image to zoom it :)
-
-![styleguide](/images/posts/22.jpg)
-
----
-
-### Syntax Highlighting
-
-{% highlight js %}
-'use strict';
-var markdown = require('markdown').markdown;
-function Editor(input, preview) {
-  this.update = function() {
-    preview.innerHTML = markdown.toHTML(input.value);
-  };
-  input.editor = this;
-  this.update();
-}
-{% endhighlight %}
-
-You can add inline code just like this, E.g. `.code { color: #fff; }`
-
-{% highlight css %}
-pre {
-  background-color: #f4f4f4;
-  max-width: 100%;
-  overflow: auto;
-}
-{% endhighlight %}
-
----
-
-### GitHub gist Embed
-
-&lt;script src=&quot;https://gist.github.com/ahmadajmi/dbb4f713317721668bcbc39420562afc.js&quot;&gt;&lt;/script&gt;
-
----
-
-### Input Style
-
-&lt;input type=&quot;text&quot; placeholder=&quot;I'm an input field!&quot;&gt;
-
----
-
-### Buttons Style
-
-&lt;button class='c-btn c-btn--small'&gt;Button&lt;/button&gt;
-
-&lt;button class='c-btn'&gt;Button&lt;/button&gt;
-
-&lt;button class='c-btn c-btn--full'&gt;Button&lt;/button&gt;
-
----
-
-{% highlight html %}
-&lt;button class='c-btn'&gt;Button&lt;/button&gt;
-&lt;button class='c-btn c-btn--small'&gt;Button&lt;/button&gt;
-&lt;button class='c-btn c-btn--full'&gt;Button&lt;/button&gt;
-{% endhighlight %}
-
----
-
-&lt;button class='c-btn c-btn--active c-btn--small'&gt;Button&lt;/button&gt;
-
-&lt;button class='c-btn c-btn--active'&gt;Button&lt;/button&gt;
-
-&lt;button class='c-btn c-btn--active c-btn--full'&gt;Button&lt;/button&gt;
-
----
-
-{% highlight html %}
-&lt;button class='c-btn c-btn--active'&gt;Button&lt;/button&gt;
-&lt;button class='c-btn c-btn--active c-btn--small'&gt;Button&lt;/button&gt;
-&lt;button class='c-btn c-btn--active c-btn--full'&gt;Button&lt;/button&gt;
-{% endhighlight %}</description>
-            <link>https://nubia-jekyll.netlify.com//style-guide.html</link>
-          </item>
-        
       
     
       

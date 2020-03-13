@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A fundamental way to reason about technology
-author: ahmad
+author: joshua
 tags: [Digital, Essay]
 image: '/images/posts/26.jpg'
 ---
@@ -35,22 +35,30 @@ Let’s get back to the horse and cart situation — better transportation time 
 *    Improving the view will change the user experience (i.e. banking experience — branch to web to mobile);
 *    Improving the model (i.e. crypto-currency) seeks to radically transform society.
 
+![alt](/images/posts/27.jpg)
 Let us now use this image to understand how the digital world works, from a web development perspective.
 
 ---
 
-> Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. — George Santayana
+> Drawings help people to work out intricate relationships between parts - Christopher Alexander
 
-#### Model-View-Controller: Web development
+### Model-View-Controller: Web development
+
+#### View
+![alt](/images/posts/28.jpg)
+
 Let’s start with the View, as it resides on the upper most part of the information ‘Stack’.
-##### View
+
 The view, as its name implies refers to what is ‘rendered’ on your screen. The word rendered is used because what you see, right from the colors, fonts, animations, styles, the layout every single icon has instructions written in code. The people who do this are, ‘Front End Developers’, as the name suggests – working on what is seen and experienced – the front end. As we have architects for buildings, we have ‘User Interface Designers’ who create the interfaces.
 The tools and languages used to create views:
 * HTML – Hypertext Markup Language: Is like an information templating system to plan information layouts on the screen.
 * CSS – Cascading Style Sheets: These are instruction templates that deal with the styling of the HTML
 * JavaScript – Also referred to as JS, They integrate instructions and enable interactivity with the information presented using HTML/CSS. They can listen to events, that is - if a mouse has clicked a part of the page, if you have swiped left, or if you have filtered a data list for visualization. All the interactivity you have experienced in the modern web is thanks to JavaScript.
 
-##### Model
+
+#### Model
+![alt](/images/posts/29.jpg)
+
 The model is probably the hardest to define. Can the model be a scaffold — like a view-model — on which actual data gets mounted? Now we are thinking of modelling visual representations. Can a model contain business logic? What if you had an Account model and it had associated maintenance fee, interests rate, and rules for how they are applied — could you now query the model to get insight on how much money I will have after 5 years? The Model is essentially, structured data, arranged as records - like the ones you find on a spreadsheet. The model only represents the data, it does nothing else. It does not depend on the controller or the view. The people who do this are called ‘Backend Developers’.
 
 There are many tools used to create and store models, for our scope in this article I shall focus on databases, in particular – relational databases and non-relational databases.\
@@ -59,12 +67,16 @@ There are many tools used to create and store models, for our scope in this arti
 
 * Non-Relational Databases: These are more recent, and are an innovative way of storing data. Here data isn’t stored in a tabular form. You can think of it as Data stored as documents on a bookshelf. Another way to look at it would be like your folder on the PC. You can have audiofiles, videofiles, slides and documents all in one folder irrespective of the file type. It follows similar fashion here. With more and more businesses getting into big data, non relational databases make it easy to store, retrieve and manipulate data. Some of the popular non relational databases are: MongoDB, Cassandra, Redis, Neo4j
 
-##### Controller
-The controller is easier to explain. The controller ties the model to the view. It is the layer sandwiched between the view and the model. It contains all the logic as well as the routes to the data model in the backend. Information architects and User Experience designers play a critical role in providing inputs to design controllers that fetch data from the backend and present them in the view. 
+
+
+#### Controller
+![alt](/images/posts/30.jpg)
+The controller is easier to explain. The controller ties the model to the view. It is the layer sandwiched between the view and the model. It contains all the logic as well as the routes to the data model in the backend. Information architects and User Experience designers play a critical role in providing inputs to those that design routes and controllers that fetch data from the backend and present them in the view. 
 
 ---
 
 #### Tying it all together from the physical world
+![alt](https://strunkmarketing.com/bitmoto/ford/images/custom/ford-techs.jpg)
 
 Let’s reinforce what we have learnt so far by going back in time to consider a situation without digital technology. Imagine a store clerk at an auto parts warehouse. A customer comes in and says he wants to buy brake pads for a 1992 Honda Civic. 
 * The clerk looks up where that part is stored in the warehouse and brings it to the customer. 
@@ -76,6 +88,7 @@ In the first scenario — looking up the part — the view was the physical part
 
 #### Interpretation into the digital world
 
+![alt](/images/posts/31.png)
 1. Bringing it back to the regular web application this process becomes easily translatable. On a landing page we look for a part. Our initial view is that of a search field that provides an interface to find something we are looking for.
 
 2. As we click “Search” this information is passed to a controller that then finds the model that matches, ties it to view and returns it back to the user. The user looks at the view of the search results — essentially one or more models — and makes a choice.
@@ -85,7 +98,6 @@ In the first scenario — looking up the part — the view was the physical part
 > In short, we have many controllers tying models to different views. Each view arises out of the customer needs identified in the physical world.
 
 ---
-
 
 ### The oppurtunity for transformation
 Let us conclude by tying some philosophical musings with the concrete ideas behind the model-view-controller.
@@ -99,10 +111,3 @@ Most techies may look at the Model-View-Controller as a mere pattern or an archi
 In the next session we are going to understand the process of building. Say you wanted to build an app. How would you go about doing it? Where and how would you start? What are the steps and resources involved and how does anthropology, design, engineering and digital innovation fit into all this. Stay tuned.
 
 ---
-
-
-
-
-
-
-![alt](https://images.unsplash.com/photo-1433785567155-bf5530cab72c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1348aea714b9493fa61a09a8c01113e6)

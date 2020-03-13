@@ -9,14 +9,13 @@ theme_version: 1.0.4
 
 # Site settings
 title:              Idea Conservatory
-logo:               # Logo image URL
-description:        Thoughts, Stories and Ideas
+logo:               \images\logo.png
+description:        Ideas, Objects, Creativity
 baseurl:            '' # The subpath of your site, e.g. /blog
-url:                'https://nubia-jekyll.netlify.com/' # The base hostname & protocol for your site
-twitter:            https://twitter.com/aspirethemes
-facebook:           https://www.facebook.com/aspirethemes
-instagram:          https://www.instagram.com/aspirethemes
-
+url:                'https://ideaconservatory.org' # The base hostname & protocol for your site
+twitter:            https://twitter.com/joshuageorgem
+facebook:           https://www.facebook.com/joshuageorgem
+instagram:          https://www.instagram.com/joshuageorgem
 markdown:  kramdown
 permalink: pretty
 paginate:  11
@@ -52,7 +51,7 @@ authors:
   joshua:
     name:     Joshua Mathew
     bio:      Connects dots for a living. Mining objects, for humans to program.
-    gravatar: https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
+    gravatar: https://secure.gravatar.com/avatar/b08b86c9fd7f09a69763746e649c2ce9
     email:    joshuageorgem@gmail.com
     website:  http://ideaconservatory.org
     github:   https://github.com/joshuageorgem

@@ -8,8 +8,8 @@
 
   <title>A fundamental way to reason about technology</title>
   <meta name='description' content="  Architecture.">
-  <link rel='canonical' href="https://nubia-jekyll.netlify.com//2020/03/13/a-fundamental-way-to-reason-about-technology/">
-  <link rel='alternate' type='application/rss+xml' title='Nubia' href="https://nubia-jekyll.netlify.com//feed.xml">
+  <link rel='canonical' href="https://ideaconservatory.org/2020/03/13/a-fundamental-way-to-reason-about-technology/">
+  <link rel='alternate' type='application/rss+xml' title='Idea Conservatory' href="https://ideaconservatory.org/feed.xml">
 
   <style>
     
@@ -37,7 +37,9 @@
     <div class='o-grid__col o-grid__col--3-4-s o-grid__col--4-4-m'>
       <div class='c-logo'>
         
-          <a class='c-logo__link' href='/'>Nubia</a>
+          <a href='/'>
+            <img class='c-logo__img' src='\images\logo.png' alt='Idea Conservatory'>
+          </a>
         
       </div>
     </div>
@@ -72,14 +74,6 @@
   
 
   
-    
-  
-
-  
-    
-      <li class='c-nav__item'>
-        <a href='/style-guide.html' class='c-nav__link'>Style Guide</a>
-      </li>
     
   
 
@@ -145,7 +139,7 @@
 
 
 
-  <meta itemprop='og:image' content='https://nubia-jekyll.netlify.com//images/posts/26.jpg'>
+  <meta itemprop='og:image' content='https://ideaconservatory.org/images/posts/26.jpg'>
 
 
 <div class='c-post-hero'>
@@ -204,17 +198,99 @@
   <li>Improving the model (i.e. crypto-currency) seeks to radically transform society.</li>
 </ul>
 
-<p>Let us now use this image to understand how the digital world works, from a web development perspective.</p>
+<p><img src="/images/posts/27.jpg" alt="alt" />
+Let us now use this image to understand how the digital world works, from a web development perspective.</p>
 
 <hr />
 
-<h5 id="quote">Quote</h5>
-
 <blockquote>
-  <p>Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. — George Santayana</p>
+  <p>Drawings help people to work out intricate relationships between parts - Christopher Alexander</p>
 </blockquote>
 
-<p><img src="https://images.unsplash.com/photo-1433785567155-bf5530cab72c?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=1348aea714b9493fa61a09a8c01113e6" alt="alt" /></p>
+<h3 id="model-view-controller-web-development">Model-View-Controller: Web development</h3>
+
+<h4 id="view">View</h4>
+<p><img src="/images/posts/28.jpg" alt="alt" /></p>
+
+<p>Let’s start with the View, as it resides on the upper most part of the information ‘Stack’.</p>
+
+<p>The view, as its name implies refers to what is ‘rendered’ on your screen. The word rendered is used because what you see, right from the colors, fonts, animations, styles, the layout every single icon has instructions written in code. The people who do this are, ‘Front End Developers’, as the name suggests – working on what is seen and experienced – the front end. As we have architects for buildings, we have ‘User Interface Designers’ who create the interfaces.
+The tools and languages used to create views:</p>
+<ul>
+  <li>HTML – Hypertext Markup Language: Is like an information templating system to plan information layouts on the screen.</li>
+  <li>CSS – Cascading Style Sheets: These are instruction templates that deal with the styling of the HTML</li>
+  <li>JavaScript – Also referred to as JS, They integrate instructions and enable interactivity with the information presented using HTML/CSS. They can listen to events, that is - if a mouse has clicked a part of the page, if you have swiped left, or if you have filtered a data list for visualization. All the interactivity you have experienced in the modern web is thanks to JavaScript.</li>
+</ul>
+
+<h4 id="model">Model</h4>
+<p><img src="/images/posts/29.jpg" alt="alt" /></p>
+
+<p>The model is probably the hardest to define. Can the model be a scaffold — like a view-model — on which actual data gets mounted? Now we are thinking of modelling visual representations. Can a model contain business logic? What if you had an Account model and it had associated maintenance fee, interests rate, and rules for how they are applied — could you now query the model to get insight on how much money I will have after 5 years? The Model is essentially, structured data, arranged as records - like the ones you find on a spreadsheet. The model only represents the data, it does nothing else. It does not depend on the controller or the view. The people who do this are called ‘Backend Developers’.</p>
+
+<p>There are many tools used to create and store models, for our scope in this article I shall focus on databases, in particular – relational databases and non-relational databases.\</p>
+
+<ul>
+  <li>
+    <p>Relational Databases (RDBMS – Relational Database Management System): These are similar to what you see on excel. They store data in columns and rows - tables. A collection of tables make a schema. A number of schemas create a database. Relational databases are robust, and are used when the data is structured. Some of the popular relational databases are: MySQL, PostgreSQL, SAPHANA,</p>
+  </li>
+  <li>
+    <p>Non-Relational Databases: These are more recent, and are an innovative way of storing data. Here data isn’t stored in a tabular form. You can think of it as Data stored as documents on a bookshelf. Another way to look at it would be like your folder on the PC. You can have audiofiles, videofiles, slides and documents all in one folder irrespective of the file type. It follows similar fashion here. With more and more businesses getting into big data, non relational databases make it easy to store, retrieve and manipulate data. Some of the popular non relational databases are: MongoDB, Cassandra, Redis, Neo4j</p>
+  </li>
+</ul>
+
+<h4 id="controller">Controller</h4>
+<p><img src="/images/posts/30.jpg" alt="alt" />
+The controller is easier to explain. The controller ties the model to the view. It is the layer sandwiched between the view and the model. It contains all the logic as well as the routes to the data model in the backend. Information architects and User Experience designers play a critical role in providing inputs to those that design routes and controllers that fetch data from the backend and present them in the view.</p>
+
+<hr />
+
+<h4 id="tying-it-all-together-from-the-physical-world">Tying it all together from the physical world</h4>
+<p><img src="https://strunkmarketing.com/bitmoto/ford/images/custom/ford-techs.jpg" alt="alt" /></p>
+
+<p>Let’s reinforce what we have learnt so far by going back in time to consider a situation without digital technology. Imagine a store clerk at an auto parts warehouse. A customer comes in and says he wants to buy brake pads for a 1992 Honda Civic.</p>
+<ul>
+  <li>The clerk looks up where that part is stored in the warehouse and brings it to the customer.</li>
+  <li>The customer inspects it and then moves to the other clerk at the cash register to purchase the part.</li>
+  <li>The second clerk inspects the part and asks for a specific amount of money to complete the transaction.</li>
+</ul>
+
+<p>In the first scenario — looking up the part — the view was the physical part, the model was the part as a component of the warehouse inventory. In the second scenario the model was still the part as a component of the warehouse inventory, but the view was the price. In this contrived scenario we have two controllers — the clerk that finds the part based on some query parameters, and the clerk, that given a part, requests some money.</p>
+
+<h4 id="interpretation-into-the-digital-world">Interpretation into the digital world</h4>
+
+<p><img src="/images/posts/31.png" alt="alt" /></p>
+<ol>
+  <li>
+    <p>Bringing it back to the regular web application this process becomes easily translatable. On a landing page we look for a part. Our initial view is that of a search field that provides an interface to find something we are looking for.</p>
+  </li>
+  <li>
+    <p>As we click “Search” this information is passed to a controller that then finds the model that matches, ties it to view and returns it back to the user. The user looks at the view of the search results — essentially one or more models — and makes a choice.</p>
+  </li>
+  <li>
+    <p>A different controller then takes the model(s) and renders a new view that now will show the price, the sales tax, shipping information etc.</p>
+  </li>
+</ol>
+
+<blockquote>
+  <p>In short, we have many controllers tying models to different views. Each view arises out of the customer needs identified in the physical world.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="the-oppurtunity-for-transformation">The oppurtunity for transformation</h3>
+<p>Let us conclude by tying some philosophical musings with the concrete ideas behind the model-view-controller.</p>
+
+<ul>
+  <li>If you are a looking for gradual improvement, or improvement in performance - look at changing the Controller.</li>
+  <li>If you are looking for innovation, look at changing or presenting a different View.</li>
+  <li>If you are looking for Radical Transformation look at changing the Model.</li>
+</ul>
+
+<p>Most techies may look at the Model-View-Controller as a mere pattern or an architecture, but it has a more powerful purpose. It provides a fundamental way to reason about technology.</p>
+
+<p>In the next session we are going to understand the process of building. Say you wanted to build an app. How would you go about doing it? Where and how would you start? What are the steps and resources involved and how does anthropology, design, engineering and digital innovation fit into all this. Stay tuned.</p>
+
+<hr />
 
         </div>
 
@@ -235,7 +311,7 @@
   <li class='c-share__item'>
     <a class='c-share__link c-share__link--twitter'
         title='Share on Twitter'
-        href="https://twitter.com/intent/tweet?text=A fundamental way to reason about technology&url=https://nubia-jekyll.netlify.com//2020/03/13/a-fundamental-way-to-reason-about-technology/"
+        href="https://twitter.com/intent/tweet?text=A fundamental way to reason about technology&url=https://ideaconservatory.org/2020/03/13/a-fundamental-way-to-reason-about-technology/"
         onclick="window.open(this.href, 'twitter-share', 'width=550, height=235'); return false;">
       <div data-icon='ei-sc-twitter' data-size='s' class='c-share__icon c-share__icon--twitter'></div>
     </a>
@@ -244,7 +320,7 @@
   <li class='c-share__item'>
     <a class='c-share__link c-share__link--facebook'
         title='Share on Facebook'
-        href="https://facebook.com/sharer.php?u=https://nubia-jekyll.netlify.com//2020/03/13/a-fundamental-way-to-reason-about-technology/"
+        href="https://facebook.com/sharer.php?u=https://ideaconservatory.org/2020/03/13/a-fundamental-way-to-reason-about-technology/"
         onclick="window.open(this.href, 'facebook-share', 'width=580, height=296'); return false;">
       <div data-icon='ei-sc-facebook' data-size='s' class='c-share__icon c-share__icon--facebook'></div>
     </a>
@@ -253,7 +329,7 @@
   <li class='c-share__item'>
     <a class='c-share__link c-share__link--pinterest'
         title='Share on Pinterest'
-        href="http://pinterest.com/pin/create/button/?url=https://nubia-jekyll.netlify.com//2020/03/13/a-fundamental-way-to-reason-about-technology/&description=A+fundamental+way+to+reason+about+technology"
+        href="http://pinterest.com/pin/create/button/?url=https://ideaconservatory.org/2020/03/13/a-fundamental-way-to-reason-about-technology/&description=A+fundamental+way+to+reason+about+technology"
         onclick="window.open(this.href, 'google-share', 'width=580, height=296'); return false;">
       <div data-icon='ei-sc-pinterest' data-size='s' class='c-share__icon c-share__icon--pinterest'></div>
     </a>
@@ -276,7 +352,7 @@
 
   // DON'T EDIT BELOW THIS LINE
   var disqus_config = function () {
-    this.page.url = 'https://nubia-jekyll.netlify.com//2020/03/13/a-fundamental-way-to-reason-about-technology/';
+    this.page.url = 'https://ideaconservatory.org/2020/03/13/a-fundamental-way-to-reason-about-technology/';
   };
 
   function disqus() {
@@ -303,21 +379,51 @@
     <div class='c-widget c-widget-author'>
 
   
+    <div class='c-widget-author__media'>
+      <img class='c-widget-author__image' src='https://secure.gravatar.com/avatar/b08b86c9fd7f09a69763746e649c2ce9' alt='Joshua Mathew'>
+    </div>
+    
 
   <div class='c-widget-author__content'>
     <h3 class='c-widget-author__title'>
-      
+      Joshua Mathew
     </h3>
+    
+      <p class='c-widget-author__bio'>Connects dots for a living. Mining objects, for humans to program.</p>
     
 
     <div class='c-author__links'>
       <ul class='o-plain-list'>
         
-
+          <li class='c-author__links-item'>
+            <a href='https://twitter.com/joshuageorgem' aria-label='Twitter' target='_blank' rel='noopener'>
+              <span class='c-author__links-icon' data-icon='ei-sc-twitter' data-size='s'></span>
+            </a>
+          </li>
         
 
         
+          <li class='c-author__links-item'>
+            <a href='https://github.com/joshuageorgem' aria-label='Github' target='_blank' rel='noopener'>
+              <span class='c-author__links-icon' data-icon='ei-sc-github' data-size='s'></span>
+            </a>
+          </li>
+        
 
+        
+          <li class='c-author__links-item'>
+            <a href='mailto:joshuageorgem@gmail.com' aria-label='Email' target='_blank' rel='noopener'>
+              <span class='c-author__links-icon' data-icon='ei-envelope' data-size='s'></span>
+            </a>
+          </li>
+        
+
+        
+          <li class='c-author__links-item'>
+            <a href='http://ideaconservatory.org' aria-label='Website' target='_blank' rel='noopener'>
+              <span class='c-author__links-icon' data-icon='ei-link' data-size='s'></span>
+            </a>
+          </li>
         
       </ul>
     </div>
@@ -364,13 +470,14 @@
   </div>
 </div>
 
-  <div class='c-widget'>
+</div>
+  <!--   <div class='c-widget'>
   <h3 class='c-widget__title'>Instagram</h3>
 
   <div id='instafeed' class='c-widget-instagram'></div>
-</div>
+</div>  >
 
-</div>
+
     </div>
   </div>
 </div>
@@ -423,14 +530,6 @@
 
   
     
-      <li class='c-nav__item'>
-        <a href='/style-guide.html' class='c-nav__link'>Style Guide</a>
-      </li>
-    
-  
-
-  
-    
   
 
   
@@ -470,7 +569,7 @@
 
           <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m'>
             <div class='u-font-tiny c-footer__copyright'>
-              2020 Nubia
+              2020 Idea Conservatory
             </div>
           </div>
 
@@ -478,21 +577,21 @@
             <ul class='c-social-icons o-plain-list'>
   
     <li>
-      <a href='https://www.facebook.com/aspirethemes' target='_blank'>
+      <a href='https://www.facebook.com/joshuageorgem' target='_blank'>
         <span class='c-social-nav__icon' data-icon='ei-sc-facebook' data-size='s'></span>
       </a>
     </li>
   
   
     <li>
-      <a href='https://twitter.com/aspirethemes' target='_blank'>
+      <a href='https://twitter.com/joshuageorgem' target='_blank'>
         <span class='c-social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span>
       </a>
     </li>
   
   
     <li>
-      <a href='https://www.instagram.com/aspirethemes' target='_blank'>
+      <a href='https://www.instagram.com/joshuageorgem' target='_blank'>
         <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
       </a>
     </li>

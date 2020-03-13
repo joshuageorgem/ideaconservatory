@@ -2,7 +2,7 @@
 layout: post
 title: Digital Glossary
 featured: true
-author: ahmad
+author: joshua
 tags: [digital, noob]
 image: '/images/posts/25.jpg'
 ---
